@@ -1,11 +1,12 @@
 gem 'minitest', '>= 5.0.0'
-require 'minitest/reporters'
+# require 'minitest/reporters'
 require 'minitest/autorun'
 require_relative 'alouette'
 
-Minitest::Reporters.use!
+# Minitest::Reporters.use!
 
 describe Alouette do
+
   describe "lines_for_verse" do
     it "returns an array of strings" do
       lines = Alouette.lines_for_verse(3)
@@ -18,12 +19,12 @@ describe Alouette do
     end
 
     it "generates the correct line for the first verse" do
-      skip
+      # skip
       Alouette.lines_for_verse(0).must_equal ['Et la tête!']
     end
 
     it "generates the correct lines for the third verse" do
-      skip
+      # skip
       expected_lines = [
         "Et les yeux!",
         "Et le bec!",
