@@ -1,4 +1,3 @@
-# verse 0
 Alouette, gentille alouette,
 Alouette, je te plumerai.
 
@@ -10,7 +9,6 @@ Alouette!
 Alouette!
 A-a-a-ah
 
-# verse 1
 Alouette, gentille alouette,
 Alouette, je te plumerai.
 
@@ -24,7 +22,6 @@ Alouette!
 Alouette!
 A-a-a-ah
 
-# verse 2
 Alouette, gentille alouette,
 Alouette, je te plumerai.
 
@@ -40,7 +37,6 @@ Alouette!
 Alouette!
 A-a-a-ah
 
-# verse 3
 Alouette, gentille alouette,
 Alouette, je te plumerai.
 
@@ -58,7 +54,6 @@ Alouette!
 Alouette!
 A-a-a-ah
 
-# verse 4
 Alouette, gentille alouette,
 Alouette, je te plumerai.
 
@@ -78,7 +73,6 @@ Alouette!
 Alouette!
 A-a-a-ah
 
-# verse 5
 Alouette, gentille alouette,
 Alouette, je te plumerai.
 
@@ -100,7 +94,6 @@ Alouette!
 Alouette!
 A-a-a-ah
 
-# verse 6
 Alouette, gentille alouette,
 Alouette, je te plumerai.
 
@@ -124,7 +117,6 @@ Alouette!
 Alouette!
 A-a-a-ah
 
-# verse 7
 Alouette, gentille alouette,
 Alouette, je te plumerai.
 
@@ -150,6 +142,5 @@ Alouette!
 Alouette!
 A-a-a-ah
 
-# bonus refrain
 Alouette, gentille alouette,
 Alouette, je te plumerai.

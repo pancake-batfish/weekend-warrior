@@ -16,19 +16,28 @@ class Alouette
       return @lines
   end
 
-  def verse(verse)
+  def self.verse(verse)
     # return a formatted string of the requested verse
-    # @refrain + ("Je te plumerai #{@bird_parts[verse]}.\n" * 2) + lines_for_verse(verse) + "Alouette!\nAlouette!\nA-a-a-ah\n"
+     @middle_lines = ""
+
+      self.lines_for_verse(verse).each do |line|
+        @middle_lines = @middle_lines + line + "\n" + line + "\n"
+      end
+
+
+    return "Je te plumerai #{@@bird_parts[verse]}.\n" * 2 + @middle_lines + "Alouette!\nAlouette!\nA-a-a-ah"
   end
 
-  def sing
+  def self.sing
     # build the entire song, formatted as in text file
     # blank line between each verse and refrain
-    # @bird_parts.length.times do |n|
-    #   puts verse(n)
-    #   puts
-    # end
-    # puts @refrain
+    @song = @@refrain
+
+    @@bird_parts.length.times do |n|
+      @song = @song + "\n\n" + self.verse(n) + "\n\n" + @@refrain
+    end
+
+    return @song
 
   end
 
